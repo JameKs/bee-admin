@@ -1,0 +1,81 @@
+{
+  "basicProfile": [
+    {
+      "id": "aaa111",
+      "username": "aaa111",
+      "phone": "18588888888",
+      "email": "aaa111@163.com",
+      "actualName": "张三",
+      "sex": "1",
+      "parseBirthday": "03-06-2013",
+      "city": "海南省 / 海口市",
+      "family": [
+        {
+          "id": 1,
+          "name": "张三爸",
+          "age": 43,
+          "relationship": "父亲",
+          "employer": "张三贸易公司",
+          "job": "财务总监",
+          "idNumber": "500333195701330088"
+        },
+        {
+          "id": 2,
+          "name": "张三妈",
+          "age": 40,
+          "relationship": "母亲",
+          "employer": "张三贸易公司",
+          "job": "文员",
+          "idNumber": "500333195501770066"
+        },
+        {
+          "id": 3,
+          "name": "张三女",
+          "age": 6,
+          "relationship": "女儿",
+          "idNumber": "500666201601770022"
+        }
+      ],
+      "income": "30000",
+      "remark": "我是张三"
+    },
+    {
+      "id": "bbb222",
+      "username": "bbb222",
+      "phone": "13555555555",
+      "email": "bbb222@163.com",
+      "actualName": "李四",
+      "sex": "1",
+      "parseBirthday": "04-04-2014",
+      "city": "青海省 / 西宁市",
+      "family": [
+        {
+          "id": 1,
+          "name": "李四爸",
+          "age": 46,
+          "relationship": "父亲",
+          "employer": "李四旅游公司",
+          "job": "人事总监",
+          "idNumber": "500444195744440055"
+        },
+        {
+          "id": 2,
+          "name": "李四妈",
+          "age": 42,
+          "relationship": "母亲",
+          "employer": "李四旅游公司",
+          "job": "会计",
+          "idNumber": "5004444195602340066"
+        },
+        {
+          "id": 3,
+          "name": "李四女",
+          "age": 7,
+          "relationship": "女儿",
+          "idNumber": "500666201501880088"
+        }
+      ],
+      "income": "40000"
+    }
+  ]
+}

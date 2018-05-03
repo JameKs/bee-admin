@@ -1,0 +1,204 @@
+{
+  "navs": [
+    {
+      "id": "admin",
+      "nav": [
+        {
+          "layout": "AppLayout",
+          "children": [
+            {
+              "name": "管理主页",
+              "icon": "dashboard",
+              "path": "dashboard",
+              "isEntrance": true
+            },
+            {
+              "name": "表单页",
+              "icon": "form",
+              "path": "form",
+              "isEntrance": true,
+              "children": [
+                {
+                  "name": "基础表单",
+                  "path": "basic-form",
+                  "isEntrance": true,
+                  "children": [
+                    {
+                      "name": "基础表单一",
+                      "path": "basic-one",
+                      "isEntrance": true
+                    },
+                    {
+                      "name": "基础表单二",
+                      "path": "basic-two",
+                      "isEntrance": true
+                    }
+                  ]
+                },
+                {
+                  "name": "分列表单",
+                  "path": "column-form",
+                  "isEntrance": true,
+                  "children": [
+                    {
+                      "name": "单列表单",
+                      "path": "single-column",
+                      "isEntrance": true
+                    },
+                    {
+                      "name": "两列表单",
+                      "path": "two-columns",
+                      "isEntrance": true
+                    },
+                    {
+                      "name": "三列表单",
+                      "path": "three-columns",
+                      "isEntrance": true
+                    }
+                  ]
+                },
+                {
+                  "name": "分步表单",
+                  "path": "step-form",
+                  "isEntrance": true
+                },
+                {
+                  "name": "高级表单",
+                  "path": "advanced-form",
+                  "isEntrance": true
+                }
+              ]
+            },
+            {
+              "name": "列表页",
+              "path": "list",
+              "icon": "table",
+              "isEntrance": true,
+              "children": [
+                {
+                  "name": "标准表格",
+                  "path": "standard-table",
+                  "isEntrance": true
+                },
+                {
+                  "name": "编辑表格",
+                  "path": "edit-table",
+                  "isEntrance": true
+                },
+                {
+                  "name": "标准列表",
+                  "path": "standard-list",
+                  "isEntrance": true
+                },
+                {
+                  "name": "卡片列表",
+                  "path": "card-list",
+                  "isEntrance": true
+                }
+              ]
+            },
+            {
+              "name": "详情页",
+              "path": "profile",
+              "icon": "profile",
+              "isEntrance": true,
+              "children": [
+                {
+                  "name": "基础详情页",
+                  "path": "basic-profile",
+                  "isEntrance": true
+                },
+                {
+                  "name": "高级详情页",
+                  "path": "advanced-profile",
+                  "isEntrance": true
+                }
+              ]
+            },
+            {
+              "name": "组件页",
+              "path": "comp",
+              "icon": "appstore-o",
+              "isEntrance": true,
+              "children": [
+                {
+                  "name": "基础组件",
+                  "path": "basic-comp",
+                  "isEntrance": true
+                },
+                {
+                  "name": "信贷组件",
+                  "path": "loan-comp",
+                  "isEntrance": true
+                },
+                {
+                  "name": "组件详情",
+                  "path": "detail-comp",
+                  "isEntrance": false
+                }
+              ]
+            },
+            {
+              "name": "异常",
+              "path": "exception",
+              "isEntrance": false,
+              "children": [
+                {
+                  "name": "403",
+                  "path": "403",
+                  "isEntrance": false
+                },
+                {
+                  "name": "404",
+                  "path": "404",
+                  "isEntrance": false
+                },
+                {
+                  "name": "500",
+                  "path": "500",
+                  "isEntrance": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "UserLayout",
+          "children": [
+            {
+              "name": "login",
+              "path": "login",
+              "isEntrance": false
+            },
+            {
+              "name": "register",
+              "path": "register",
+              "isEntrance": false
+            },
+            {
+              "name": "register-result",
+              "path": "register-result",
+              "isEntrance": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guest",
+      "nav": [
+        {
+          "layout": "AppLayout",
+          "children": [
+            {
+              "name": "管理主页",
+              "icon": "dashboard",
+              "path": "dashboard",
+              "isEntrance": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

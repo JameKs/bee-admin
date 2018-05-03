@@ -1,0 +1,505 @@
+{
+  "standardTable": [
+    {
+      "id": 1,
+      "username": "aaa111",
+      "phone": "18500001111",
+      "email": "aaa111@163.com",
+      "actualName": "赵一",
+      "sex": "1",
+      "birthday": "01-01-1981",
+      "city": "海南省 / 海口市",
+      "family": [
+        {
+          "id": 1,
+          "name": "赵一爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "赵一XX公司",
+          "job": "财务总监",
+          "idNumber": "46010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "赵一妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "赵一XX公司",
+          "job": "人力总监",
+          "idNumber": "46010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "赵一女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "46010120170101XXXX"
+        }
+      ],
+      "income": "10000",
+      "remark": "我是赵一"
+    },
+    {
+      "id": 2,
+      "username": "aaa222",
+      "phone": "18511112222",
+      "email": "aaa222@163.com",
+      "actualName": "钱二",
+      "sex": "2",
+      "birthday": "02-02-1982",
+      "city": "青海省 / 海南藏族自治州",
+      "family": [
+        {
+          "id": 1,
+          "name": "钱二爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "钱二XX公司",
+          "job": "财务总监",
+          "idNumber": "63252119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "钱二妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "钱二XX公司",
+          "job": "人力总监",
+          "idNumber": "63252119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "钱二女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "63252120170101XXXX"
+        }
+      ],
+      "income": "20000"
+    },
+    {
+      "id": 3,
+      "username": "aaa333",
+      "phone": "18522223333",
+      "email": "aaa333@163.com",
+      "actualName": "孙三",
+      "sex": "1",
+      "birthday": "03-03-1983",
+      "city": "浙江省 / 杭州市",
+      "family": [
+        {
+          "id": 1,
+          "name": "孙三爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "孙三XX公司",
+          "job": "财务总监",
+          "idNumber": "33010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "孙三妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "孙三XX公司",
+          "job": "人力总监",
+          "idNumber": "33010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "孙三女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "33010120170101XXXX"
+        }
+      ],
+      "income": "30000",
+      "remark": "我是孙三"
+    },
+    {
+      "id": 4,
+      "username": "bbb444",
+      "phone": "18533334444",
+      "email": "bbb444@163.com",
+      "actualName": "李四",
+      "sex": "2",
+      "birthday": "04-04-1984",
+      "city": "贵州省 / 六盘水市",
+      "family": [
+        {
+          "id": 1,
+          "name": "李四爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "李四XX公司",
+          "job": "财务总监",
+          "idNumber": "52020119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "李四妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "李四XX公司",
+          "job": "人力总监",
+          "idNumber": "52020119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "李四女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "52020120170101XXXX"
+        }
+      ],
+      "income": "40000"
+    },
+    {
+      "id": 5,
+      "username": "bbb555",
+      "phone": "18544445555",
+      "email": "bbb555@163.com",
+      "actualName": "周五",
+      "sex": "1",
+      "birthday": "05-05-1985",
+      "city": "陕西省 / 汉中市",
+      "family": [
+        {
+          "id": 1,
+          "name": "周五爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "周五XX公司",
+          "job": "财务总监",
+          "idNumber": "61070119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "周五妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "周五XX公司",
+          "job": "人力总监",
+          "idNumber": "61070119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "周五女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "61070120170101XXXX"
+        }
+      ],
+      "income": "50000",
+      "remark": "我是周五"
+    },
+    {
+      "id": 6,
+      "username": "bbb666",
+      "phone": "18555556666",
+      "email": "bbb666@163.com",
+      "actualName": "吴六",
+      "sex": "2",
+      "birthday": "06-06-1986",
+      "city": "云南省 / 昆明市",
+      "family": [
+        {
+          "id": 1,
+          "name": "吴六爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "吴六XX公司",
+          "job": "财务总监",
+          "idNumber": "53010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "吴六妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "吴六XX公司",
+          "job": "人力总监",
+          "idNumber": "53010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "吴六女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "53010120170101XXXX"
+        }
+      ],
+      "income": "60000"
+    },
+    {
+      "id": 7,
+      "username": "ccc777",
+      "phone": "18566667777",
+      "email": "ccc777@163.com",
+      "actualName": "郑七",
+      "sex": "1",
+      "birthday": "07-07-1987",
+      "city": "上海 / 上海市",
+      "family": [
+        {
+          "id": 1,
+          "name": "郑七爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "郑七XX公司",
+          "job": "财务总监",
+          "idNumber": "31010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "郑七妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "郑七XX公司",
+          "job": "人力总监",
+          "idNumber": "31010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "郑七女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "31010120170101XXXX"
+        }
+      ],
+      "income": "70000",
+      "remark": "我是郑七"
+    },
+    {
+      "id": 8,
+      "username": "ccc888",
+      "phone": "18577778888",
+      "email": "ccc888@163.com",
+      "actualName": "冯八",
+      "sex": "2",
+      "birthday": "08-08-1988",
+      "city": "黑龙江省 / 牡丹江市",
+      "family": [
+        {
+          "id": 1,
+          "name": "冯八爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "冯八XX公司",
+          "job": "财务总监",
+          "idNumber": "23100119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "冯八妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "冯八XX公司",
+          "job": "人力总监",
+          "idNumber": "23100119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "冯八女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "23100120170101XXXX"
+        }
+      ],
+      "income": "80000"
+    },
+    {
+      "id": 9,
+      "username": "ccc999",
+      "phone": "18588889999",
+      "email": "ccc999@163.com",
+      "actualName": "陈九",
+      "sex": "1",
+      "birthday": "09-09-1989",
+      "city": "北京 / 北京市",
+      "family": [
+        {
+          "id": 1,
+          "name": "陈九爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "陈九XX公司",
+          "job": "财务总监",
+          "idNumber": "11010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "陈九妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "陈九XX公司",
+          "job": "人力总监",
+          "idNumber": "11010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "陈九女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "11010120170101XXXX"
+        }
+      ],
+      "income": "90000",
+      "remark": "我是陈九"
+    },
+    {
+      "id": 10,
+      "username": "ddd010",
+      "phone": "18599990010",
+      "email": "ddd010@163.com",
+      "actualName": "褚十",
+      "sex": "2",
+      "birthday": "10-10-1990",
+      "city": "广东省 / 深圳市",
+      "family": [
+        {
+          "id": 1,
+          "name": "褚十爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "褚十XX公司",
+          "job": "财务总监",
+          "idNumber": "44030119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "褚十妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "褚十XX公司",
+          "job": "人力总监",
+          "idNumber": "44030119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "褚十女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "44030120170101XXXX"
+        }
+      ],
+      "income": "100000"
+    },
+    {
+      "id": 11,
+      "username": "ddd011",
+      "phone": "18500100011",
+      "email": "ddd011@163.com",
+      "actualName": "卫十一",
+      "sex": "1",
+      "birthday": "11-11-1991",
+      "city": "山东省 / 青岛市",
+      "family": [
+        {
+          "id": 1,
+          "name": "卫十一爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "卫十一XX公司",
+          "job": "财务总监",
+          "idNumber": "37020119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "卫十一妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "卫十一XX公司",
+          "job": "人力总监",
+          "idNumber": "37020119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "卫十一女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "37020120170101XXXX"
+        }
+      ],
+      "income": "110000",
+      "remark": "我是卫十一"
+    },
+    {
+      "id": 12,
+      "username": "ddd012",
+      "phone": "18500110012",
+      "email": "ddd012@163.com",
+      "actualName": "蒋十二",
+      "sex": "2",
+      "birthday": "12-12-1992",
+      "city": "江西省 / 南昌市",
+      "family": [
+        {
+          "id": 1,
+          "name": "蒋十二爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "蒋十二XX公司",
+          "job": "财务总监",
+          "idNumber": "36010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "蒋十二妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "蒋十二XX公司",
+          "job": "人力总监",
+          "idNumber": "36010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "蒋十二女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "36010120170101XXXX"
+        }
+      ],
+      "income": "120000"
+    },
+    {
+      "id": 13,
+      "username": "eee013",
+      "phone": "18500120013",
+      "email": "eee013@163.com",
+      "actualName": "沈十三",
+      "sex": "1",
+      "birthday": "13-10-1993",
+      "city": "河南省 / 驻马店市",
+      "family": [
+        {
+          "id": 1,
+          "name": "沈十三爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "沈十三XX公司",
+          "job": "财务总监",
+          "idNumber": "41170119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "沈十三妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "沈十三XX公司",
+          "job": "人力总监",
+          "idNumber": "41170119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "沈十三女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "41170120170101XXXX"
+        }
+      ],
+      "income": "130000",
+      "remark": "我是沈十三"
+    }
+  ]
+}

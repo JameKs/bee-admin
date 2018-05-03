@@ -1,0 +1,12 @@
+{
+  "title": "BEE 管理控制台",
+  "shortTitle": "BEE Admin",
+  "company": "BEE Company",
+  "copyright": "2018 BEE Admin 出品",
+  "desc": "BEE Admin 是基于 React+Antd 构建的管理系统框架",
+  "companyLink": "http://www.cqrcb.com",
+  "helpLink": "http://www.cqrcb.com",
+  "privacyLink": "http://www.cqrcb.com",
+  "termsLink": "http://www.cqrcb.com",
+  "forgotLink": "http://passport.oa.cqrcb.com/cas-oa/login?"
+}

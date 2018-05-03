@@ -1,0 +1,13 @@
+export { default as AmtInput } from './AmtInput';
+export { default as DoublePwd } from './DoublePwd';
+export { default as Ellipsis } from './Ellipsis';
+export { default as Email } from './Email';
+export { default as MobilePhone } from './MobilePhone';
+export { default as Name } from './Name';
+export { default as NumberCard } from './NumberCard';
+export { default as Sex } from './Sex';
+export { default as UserId } from './UserId';
+export { default as PageHeader } from './PageHeader';
+export { default as Result } from './Result';
+export { default as DescriptionList } from './DescriptionList';
+export { default as TypeDict } from './TypeDict';

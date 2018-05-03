@@ -1,0 +1,193 @@
+{
+  "editTable": [
+    {
+      "id": 1,
+      "username": "aaa111",
+      "phone": "18500001111",
+      "email": "aaa111@163.com",
+      "actualName": "赵一",
+      "sex": "1",
+      "birthday": "01-01-1981",
+      "city": [
+        "e4ea5edf-5390-4137-bac4-15f2db76a299",
+        "49088680-af1f-4a11-8e66-3516bf6559e4"
+      ],
+      "income": "10000",
+      "remark": "我是赵一"
+    },
+    {
+      "id": 2,
+      "username": "aaa222",
+      "phone": "18511112222",
+      "email": "aaa222@163.com",
+      "actualName": "钱二",
+      "sex": "2",
+      "birthday": "02-02-1982",
+      "city": [
+        "6a02c31f-47e5-4e64-8213-1cf17d02f06f",
+        "b9b1fbaa-2e7d-4502-be74-c1783b624023"
+      ],
+      "income": "20000"
+    },
+    {
+      "id": 3,
+      "username": "aaa333",
+      "phone": "18522223333",
+      "email": "aaa333@163.com",
+      "actualName": "孙三",
+      "sex": "1",
+      "birthday": "03-03-1983",
+      "city": [
+        "74d26654-0be5-43df-9a4f-20115b8d7584",
+        "a8fefdfa-1ff5-4b99-8493-6aea6d522597"
+      ],
+      "income": "30000",
+      "remark": "我是孙三"
+    },
+    {
+      "id": 4,
+      "username": "bbb444",
+      "phone": "18533334444",
+      "email": "bbb444@163.com",
+      "actualName": "李四",
+      "sex": "2",
+      "birthday": "04-04-1984",
+      "city": [
+        "23b3c109-452c-4b07-8d77-27349f5420ba",
+        "be7919ae-8c59-4184-bf6a-d472396d1183"
+      ],
+      "income": "40000"
+    },
+    {
+      "id": 5,
+      "username": "bbb555",
+      "phone": "18544445555",
+      "email": "bbb555@163.com",
+      "actualName": "周五",
+      "sex": "1",
+      "birthday": "05-05-1985",
+      "city": [
+        "52870c17-e12b-44a9-83e7-2a550d1171b8",
+        "83416a5d-5642-4659-8b97-568cb3f79b59"
+      ],
+      "income": "50000",
+      "remark": "我是周五"
+    },
+    {
+      "id": 6,
+      "username": "bbb666",
+      "phone": "18555556666",
+      "email": "bbb666@163.com",
+      "actualName": "吴六",
+      "sex": "2",
+      "birthday": "06-06-1986",
+      "city": [
+        "6e807b58-07e7-40cf-8971-3756750ba62a",
+        "09891418-1858-4821-a77f-ad971f048801"
+      ],
+      "income": "60000"
+    },
+    {
+      "id": 7,
+      "username": "ccc777",
+      "phone": "18566667777",
+      "email": "ccc777@163.com",
+      "actualName": "郑七",
+      "sex": "1",
+      "birthday": "07-07-1987",
+      "city": [
+        "3abcf245-505f-4342-b4d0-3dabd8cadb7f",
+        "7d04e3a1-ee87-431c-9aa7-ac245014c51a"
+      ],
+      "income": "70000",
+      "remark": "我是郑七"
+    },
+    {
+      "id": 8,
+      "username": "ccc888",
+      "phone": "18577778888",
+      "email": "ccc888@163.com",
+      "actualName": "冯八",
+      "sex": "2",
+      "birthday": "08-08-1988",
+      "city": [
+        "220c349a-b73a-426a-b250-4b27e59c45e8",
+        "1841df8b-2721-4179-9a5d-4abd1c8937f7"
+      ],
+      "income": "80000"
+    },
+    {
+      "id": 9,
+      "username": "ccc999",
+      "phone": "18588889999",
+      "email": "ccc999@163.com",
+      "actualName": "陈九",
+      "sex": "1",
+      "birthday": "09-09-1989",
+      "city": [
+        "359418ff-6598-4a5a-900c-5d6ef2fb42e5",
+        "9420aade-7fcb-47b3-bac1-ea204d253a40"
+      ],
+      "income": "90000",
+      "remark": "我是陈九"
+    },
+    {
+      "id": 10,
+      "username": "ddd010",
+      "phone": "18599990010",
+      "email": "ddd010@163.com",
+      "actualName": "褚十",
+      "sex": "2",
+      "birthday": "10-10-1990",
+      "city": [
+        "0aa32b24-b795-49d8-b37b-619c8335343a",
+        "c42324d7-0ccc-4929-8a3f-900b699be790"
+      ],
+      "income": "100000"
+    },
+    {
+      "id": 11,
+      "username": "ddd011",
+      "phone": "18500100011",
+      "email": "ddd011@163.com",
+      "actualName": "卫十一",
+      "sex": "1",
+      "birthday": "11-11-1991",
+      "city": [
+        "422c27f5-518f-4621-a787-7425c5296d60",
+        "bcaa135c-d1ad-415d-8d43-e6fed4ec545e"
+      ],
+      "income": "110000",
+      "remark": "我是卫十一"
+    },
+    {
+      "id": 12,
+      "username": "ddd012",
+      "phone": "18500110012",
+      "email": "ddd012@163.com",
+      "actualName": "蒋十二",
+      "sex": "2",
+      "birthday": "12-12-1992",
+      "city": [
+        "33361fe8-7bf7-4697-a5a7-79d5a61fe269",
+        "5c90ed55-a88b-4ce9-8709-50750346ba69"
+      ],
+      "income": "120000"
+    },
+    {
+      "id": 13,
+      "username": "eee013",
+      "phone": "18500120013",
+      "email": "eee013@163.com",
+      "actualName": "沈十三",
+      "sex": "1",
+      "birthday": "13-10-1993",
+      "city": [
+        "d6044f33-a608-4838-b330-8872a2aca9e5",
+        "8be92b40-e74f-48ea-8161-5c3c70468ab7"
+      ],
+      "income": "130000",
+      "remark": "我是沈十三"
+    }
+  ]
+}

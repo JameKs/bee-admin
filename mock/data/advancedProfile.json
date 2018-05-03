@@ -1,0 +1,372 @@
+{
+  "advancedProfile": [
+    {
+      "id": "201801080001",
+      "approvalBasic": {
+        "status": "财务初评",
+        "appLimit": "100000",
+        "founder": "曲丽丽",
+        "cardType": "信用卡-白金卡",
+        "createDate": "2018-01-08",
+        "related": "12421",
+        "remark": "请于两个工作日内确认"
+      },
+      "approvalProgress": {
+        "current": 1,
+        "approver": [
+          {
+            "name": "曲丽丽",
+            "datetime": "2018-01-08 13:55:30"
+          },
+          {
+            "name": "周毛毛",
+            "datetime": null
+
+          }
+        ]
+      },
+      "username": "aaa111",
+      "phone": "18500001111",
+      "email": "aaa111@163.com",
+      "actualName": "赵一",
+      "sex": "1",
+      "parseBirthday": "01-01-1981",
+      "city": "海南省 / 海口市",
+      "moneyFlows": [
+        {
+          "id": 1,
+          "transDate": "2018-01-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 2,
+          "transDate": "2018-01-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 3,
+          "transDate": "2018-01-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "",
+          "transSummary": "自动扣款归还信用卡欠款"
+        },
+        {
+          "id": 4,
+          "transDate": "2017-12-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 5,
+          "transDate": "2017-12-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 6,
+          "transDate": "2017-12-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        },
+        {
+          "id": 7,
+          "transDate": "2017-11-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 8,
+          "transDate": "2017-11-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 9,
+          "transDate": "2017-11-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        },
+        {
+          "id": 10,
+          "transDate": "2017-10-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 11,
+          "transDate": "2017-10-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 12,
+          "transDate": "2017-10-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        }
+      ],
+      "familyMembers": [
+        {
+          "id": 1,
+          "name": "赵一爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "赵一XX公司",
+          "job": "财务总监",
+          "idNumber": "46010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "赵一妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "赵一XX公司",
+          "job": "人力总监",
+          "idNumber": "46010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "赵一女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "46010120170101XXXX"
+        }
+      ],
+      "income": "10000",
+      "remark": "我是赵一"
+    },
+    {
+      "id": "201801110005",
+      "approvalBasic": {
+        "status": "财务初评",
+        "appLimit": "80000",
+        "founder": "言轻轻",
+        "cardType": "信用卡-普通卡 ",
+        "createDate": "2018-01-11",
+        "related": "12421",
+        "remark": "请于两个工作日内确认"
+      },
+      "approvalProgress": {
+        "current": 1,
+        "approver": [
+          {
+            "name": "言轻轻",
+            "datetime": "2018-01-11 13:55:30"
+          },
+          {
+            "name": "周毛毛",
+            "datetime": null
+
+          }
+        ]
+      },
+      "username": "aaa111",
+      "phone": "18500001111",
+      "email": "aaa111@163.com",
+      "actualName": "赵一",
+      "sex": "1",
+      "parseBirthday": "01-01-1981",
+      "city": "海南省 / 海口市",
+      "moneyFlows": [
+        {
+          "id": 1,
+          "transDate": "2018-01-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 2,
+          "transDate": "2018-01-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 3,
+          "transDate": "2018-01-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "",
+          "transSummary": "自动扣款归还信用卡欠款"
+        },
+        {
+          "id": 4,
+          "transDate": "2017-12-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 5,
+          "transDate": "2017-12-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 6,
+          "transDate": "2017-12-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        },
+        {
+          "id": 7,
+          "transDate": "2017-11-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 8,
+          "transDate": "2017-11-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 9,
+          "transDate": "2017-11-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        },
+        {
+          "id": 10,
+          "transDate": "2017-10-07",
+          "transTime": "19:14:01",
+          "transType": 1,
+          "transAmt": 30000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一XX公司",
+          "transSummary": "工资"
+        },
+        {
+          "id": 11,
+          "transDate": "2017-10-04",
+          "transTime": "19:14:01",
+          "transType": 2,
+          "transAmt": 3000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "赵一",
+          "transSummary": "房贷"
+        },
+        {
+          "id": 12,
+          "transDate": "2017-10-02",
+          "transTime": "10:14:30",
+          "transType": 2,
+          "transAmt": 5000,
+          "sideBank": "XXXXX银行",
+          "sideAcctName": "XXXXXX",
+          "transSummary": ""
+        }
+      ],
+      "familyMembers": [
+        {
+          "id": 1,
+          "name": "赵一爸",
+          "age": 40,
+          "relationship": "父亲",
+          "employer": "赵一XX公司",
+          "job": "财务总监",
+          "idNumber": "46010119780101XXXX"
+        },
+        {
+          "id": 2,
+          "name": "赵一妈",
+          "age": 39,
+          "relationship": "母亲",
+          "employer": "赵一XX公司",
+          "job": "人力总监",
+          "idNumber": "46010119790101XXXX"
+        },
+        {
+          "id": 3,
+          "name": "赵一女",
+          "age": 1,
+          "relationship": "女儿",
+          "idNumber": "46010120170101XXXX"
+        }
+      ],
+      "income": "10000",
+      "remark": "我是赵一"
+    }
+  ]
+}

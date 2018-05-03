@@ -1,0 +1,35 @@
+@import "~antd/lib/style/themes/default.less";
+
+.list {
+  margin-bottom: -24px;
+
+  .card {
+    :global {
+      .ant-card-meta-title {
+        margin-bottom: 12px;
+        & > a {
+          color: @heading-color;
+        }
+      }
+      .ant-card-actions {
+        background: #f7f9fa;
+      }
+      .ant-card-body:hover {
+        .ant-card-meta-title > a {
+          color: @primary-color;
+        }
+      }
+    }
+
+    .item {
+      min-height: 64px;
+    }
+
+    .cardAvatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+    }
+    
+  }
+}

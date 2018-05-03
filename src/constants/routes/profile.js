@@ -1,0 +1,7 @@
+// basic-profile
+export const PROFILE_BASIC_GET = 'PROFILE_BASIC_GET';
+export const PROFILE_BASIC_RESET = 'PROFILE_BASIC_RESET';
+
+// advanced-profile
+export const PROFILE_ADVANCED_INIT = 'PROFILE_ADVANCED_INIT';
+export const PROFILE_ADVANCED_PASS = 'PROFILE_ADVANCED_PASS';

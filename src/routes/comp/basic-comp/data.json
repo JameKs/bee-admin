@@ -1,0 +1,1063 @@
+[
+  {
+    "id": 1,
+    "title": "AmtInput",
+    "version": "v 1.0.0",
+    "name": "金额输入组件",
+    "description": "功能：校验输入的内容是否满足金额输入规则。如果满足，则显示金额大写，否则提示错误。",
+    "whenUse": "表单中需要进行金额输入时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的内容必须为数字。",
+      "3. 小数位数默认最大不能超过2位,可以通过参数指定小数位数。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "decimal",
+        "desc": "小数位数",
+        "type": "number",
+        "required": "false",
+        "default": "2"
+      },
+      {
+        "key": 13,
+        "name": "max",
+        "desc": "最大金额",
+        "type": "number",
+        "required": "false",
+        "default": "100,000,000,000.00"
+      },
+      {
+        "key": 14,
+        "name": "min",
+        "desc": "最小金额",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 15,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "DoublePwd",
+    "version": "v 1.0.0",
+    "name": "密码双输组件",
+    "description": "功能：根据输入的内容进行密码规则校验。",
+    "whenUse": "表单中需要进行密码双输时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的内容必须字母、数字和下划线。",
+      "3. 输入的内容必须符合最小位数和最大位数范围限定。",
+      "4. 密码输入框和密码确认输入框输入的密码必须相同。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "pwdLabel",
+        "desc": "密码输入节点标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "pwdField",
+        "desc": "密码输入节点绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "pwdInitialValue",
+        "desc": "密码输入节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "confirmLabel",
+        "desc": "密码确认节点标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 6,
+        "name": "confirmField",
+        "desc": "密码确认节点绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 7,
+        "name": "confirmInitialValue",
+        "desc": "密码确认节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 8,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 9,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 10,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 11,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 12,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 13,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 14,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 15,
+        "name": "min",
+        "desc": "最小字符数",
+        "type": "number",
+        "required": "false",
+        "default": "6"
+      },
+      {
+        "key": 16,
+        "name": "max",
+        "desc": "最大字符数",
+        "type": "number",
+        "required": "false",
+        "default": "16"
+      },
+      {
+        "key": 17,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Ellipsis",
+    "version": "v 1.0.0",
+    "name": "文本显示组件",
+    "description": "功能：提供格式化文件显示区域",
+    "whenUse": "需要格式化文本显示区域时使用,文本过长自动处理省略号，支持按照文本长度和最大行数两种方式截取。",
+    "rules": [
+      "-"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "tooltip",
+        "desc": "移动到文本展示完整内容的提示",
+        "type": "boolean",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "length",
+        "desc": "在按照长度截取下的文本最大字符数，超过则截取省略",
+        "type": "number",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "lines",
+        "desc": "在按照行数截取下最大的行数，超过则截取省略",
+        "type": "number",
+        "required": "false",
+        "default": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Email",
+    "version": "v 1.0.0",
+    "name": "邮件输入组件",
+    "description": "功能：校验输入的内容是否满足邮件格式。如果不满足，则提示错误。",
+    "whenUse": "表单中需要进行邮件地址输入时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的邮件地址格式必须为example@xx.com格式。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "MobilePhone",
+    "version": "v 1.0.0",
+    "description": "功能：校验输入的内容是否满足移动电话格式。如果不满足，则提示错误。",
+    "whenUse": "表单中需要进行手机号码输入时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的号码可以使用13、15、18开头，后面9位（0-9）数字。",
+      "3. 输入的号码可以使用14开头，后面1位（5或者7）数字，后面8位（0-9）数字。",
+      "4. 输入的号码可以使用17开头，后面1位（0、6、7或者8）数字，后面8位（0-9）数字。",
+      "5. 输入的号码可以使用197开头，后面8位（0-9）数字。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Name",
+    "version": "v 1.0.0",
+    "name": "姓名输入组件",
+    "description": "功能：校验输入的内容是否满足姓名格式。如果不满足，则提示错误。",
+    "whenUse": "表单中需要进行姓名输入时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的内容必须字母、数字和下划线，需以字母开头。",
+      "3. 输入的内容必须符合最小位数和最大位数范围限定。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "min",
+        "desc": "最小字符数",
+        "type": "number",
+        "required": "false",
+        "default": "2"
+      },
+      {
+        "key": 13,
+        "name": "max",
+        "desc": "最大字符数",
+        "type": "number",
+        "required": "false",
+        "default": "10"
+      },
+      {
+        "key": 14,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "NumberCard",
+    "version": "v 1.0.0",
+    "name": "数字卡片组件",
+    "description": "功能：提供动态的数字展现卡。",
+    "whenUse": "需要在主页中展示数字框导航时使用。",
+    "rules": [
+      "-"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "title",
+        "desc": "数字卡的文字描述",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "number",
+        "desc": "数字卡显示的数字",
+        "type": "number",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "icon",
+        "desc": "图标",
+        "type": "String",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "color",
+        "desc": "图标的颜色",
+        "type": "String",
+        "required": "false",
+        "default": "-"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "PageHeader",
+    "version": "v 1.0.0",
+    "name": "页头综合操作卡组件",
+    "description": "功能：提供页头的综合操作展现卡。具备显示普通内容及重要内容，提供相关操作菜单等功能。",
+    "whenUse": "需要在页面中显示不同等级内容及相关操作时使用。",
+    "rules": [
+      "-"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "title",
+        "desc": "加粗的标题描述",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "logo",
+        "desc": "标题描述左侧的图标",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "action",
+        "desc": "相关的操作",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "content",
+        "desc": "详细描述",
+        "type": "String | ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "extraContent",
+        "desc": "扩展内容",
+        "type": "String | ReactNode",
+        "required": "false",
+        "default": "-"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Sex",
+    "version": "v 1.0.0",
+    "name": "性别输入组件",
+    "description": "功能：提供选择性别的组件。",
+    "whenUse": "表单中需要进行性别选择时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+
+  },
+  {
+    "id": 10,
+    "title": "UserId",
+    "version": "v 1.0.0",
+    "name": "用户ID输入组件",
+    "description": "功能：校验输入的内容是否满足用户ID格式。如果不满足，则提示错误。",
+    "whenUse": "表单中需要进行用户ID输入时使用。",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 输入的内容必须字母、数字和下划线，需以字母开头。",
+      "3. 输入的内容必须符合最小位数和最大位数范围限定。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "label",
+        "desc": "标签的文本",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "field",
+        "desc": "绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initialValue",
+        "desc": "节点的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 6,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 7,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 8,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 9,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 12,
+        "name": "min",
+        "desc": "最小字符数",
+        "type": "number",
+        "required": "false",
+        "default": "6"
+      },
+      {
+        "key": 13,
+        "name": "max",
+        "desc": "最大字符数",
+        "type": "number",
+        "required": "false",
+        "default": "18"
+      },
+      {
+        "key": 14,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Result",
+    "version": "v 1.0.0",
+    "name": "结果页展示组件",
+    "description": "功能：结果页用于对用户进行的一系列任务处理结果进行反馈。",
+    "whenUse": "需要向用户展示处理结果及结果明细时使用。",
+    "rules": [
+      "-"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "type",
+        "desc": "类型，不同类型自带对应的图标",
+        "type": "Enum {'success', 'error'}",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "title",
+        "desc": "标题",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "description",
+        "desc": "结果描述",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "extra",
+        "desc": "补充信息，有默认的灰色背景",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "actions",
+        "desc": "操作建议，推荐放置跳转链接，按钮组等",
+        "type": "ReactNode",
+        "required": "false",
+        "default": "-"
+      }
+    ]
+  }
+]

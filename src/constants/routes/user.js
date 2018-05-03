@@ -1,0 +1,2 @@
+export const USER_LOGIN = 'FRAME_USER_LOGIN';
+export const USER_LOGOUT = 'FRAME_USER_LOGOUT';

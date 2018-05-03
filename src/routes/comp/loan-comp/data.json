@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "MarginAcct",
+    "version": "v 1.0.0",
+    "name": "保证金账号组件",
+    "description": "功能：通过输入的保证金账号，调用REST接口验证账号状态，如果状态正常，则返回保证金账号名称。",
+    "whenUse": "表单中需要进行保证金账号输入及校验时使用。",
+    "rest": "/api/margins",
+    "rules": [
+      "1. 设置必输时必须输入。",
+      "2. 保证金账号必须为19位。",
+      "3. 保证金账号必须在后台存在并且状态为正常。"
+    ],
+    "props": [
+      {
+        "key": 1,
+        "name": "form",
+        "desc": "当前form表单",
+        "type": "Form",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 2,
+        "name": "acctField",
+        "desc": "保证金账号绑定的数据元素",
+        "type": "String",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 3,
+        "name": "acctNameField",
+        "desc": "保证金账号名称绑定的数据元素",
+        "type": "string",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 4,
+        "name": "initAcct",
+        "desc": "保证金账号的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 5,
+        "name": "initAcctName",
+        "desc": "保证金账号名称的初始值",
+        "type": "object",
+        "required": "true",
+        "default": "-"
+      },
+      {
+        "key": 6,
+        "name": "columnLayout",
+        "desc": "布局列数",
+        "type": "number",
+        "required": "false",
+        "default": "1"
+      },
+      {
+        "key": 7,
+        "name": "columnIndex",
+        "desc": "摆放的列序号",
+        "type": "number",
+        "required": "false",
+        "default": "0"
+      },
+      {
+        "key": 8,
+        "name": "colon",
+        "desc": "是否显示 label 后面的冒号",
+        "type": "boolean",
+        "required": "false",
+        "default": "true"
+      },
+      {
+        "key": 9,
+        "name": "hasFeedback",
+        "desc": "展示校验状态图标",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 10,
+        "name": "required",
+        "desc": "是否必填",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 11,
+        "name": "disabled",
+        "desc": "是否禁用状态",
+        "type": "boolean",
+        "required": "false",
+        "default": "false"
+      },
+      {
+        "key": 12,
+        "name": "placeholder",
+        "desc": "提示信息",
+        "type": "boolean",
+        "required": "false",
+        "default": "根据参数自动生成"
+      },
+      {
+        "key": 13,
+        "name": "width",
+        "desc": "宽度",
+        "type": "string",
+        "required": "false",
+        "default": "100%"
+      }
+    ]
+  }
+]
